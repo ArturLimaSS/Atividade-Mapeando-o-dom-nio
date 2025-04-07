@@ -1,4 +1,4 @@
-Entidades: // Objetos que recebem atributos e métodos do mundo real 
+## Entidades:
 
 - Produto (Atributos: Id, Nome, Quantidade Mínima, Data de cadastro, Data de atualização)
 - Estoque (Id, ProdutoId, Tamanho, Valor de Custo, Cor, Tipo de Movimentação (Entrada/ Saída), Quantidade, Data do Cadastro, Data de Atualização)
@@ -6,7 +6,7 @@ Entidades: // Objetos que recebem atributos e métodos do mundo real
 - Fornecedor (Id, Nome, Data de Cadastro, Data de Atualização)
 - Ordem de compra (Id, ProdutoId, FornecedorId, IdExterno, Data da Compra, Data de Cadastro, Data de Atualização) 
 
-Casos de uso: // Funcionalidades e regras de negócio 
+## Casos de uso: 
 - Definir Identificador unico para todos os registros
 - Cadastrar/Editar Produto
 - Definir quantidade mínima em estoque
